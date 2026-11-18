@@ -2,6 +2,18 @@
 
 # Changelog
 
+## [0.12.2](https://github.com/tekumara/fakesnow/compare/v0.12.1...v0.12.2) (2026-11-18)
+
+
+### Bug Fixes
+
+* **server:** return a NULL timestamp as NULL, not 1970-01-01 ([#465](https://github.com/tekumara/fakesnow/issues/465)) ([6d0c04c](https://github.com/tekumara/fakesnow/commit/6d0c04c92611cdf61c6318b87b498a943d2cfa0f))
+
+
+### Performance Improvements
+
+* avoid duckdb 2 extra arrow copy ([#503](https://github.com/tekumara/fakesnow/issues/503)) ([1a376bd](https://github.com/tekumara/fakesnow/commit/1a376bd03b285ed13eb4edac1a97c9df75c8066a))
+
 ## [0.12.1](https://github.com/tekumara/fakesnow/compare/v0.12.0...v0.12.1) (2026-10-25)
 
 
